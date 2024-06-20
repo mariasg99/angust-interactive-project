@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    width: 1349px;
+    height: 1700px;
+    background-image: url("../img/fondo7.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
+header {
+    background-color: #595246;
+    background-image: url("../img/fondo4.jpg");
+    height: 524px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+header nav {
+    height: 87px;
+    background-color: rgba(41, 52, 54, 0.9)
+}
+
+.logo img {
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 138px;
+    height: 61px;
+
+
+
+}
+
+header ul {
+    width: 650px;
+    height: 98px;
+    margin-top: 0px;
+    float: right;
+    margin-right: 30px; //background-color: aqua;
+    padding-right: 30px;
+
+}
+
+header ul li {
+    float: right;
+    display: inline-block;
+    list-style: none;
+    width: 60px;
+    height: 48px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; // background-color: aqua;
+}
+
+header ul li:nth-child(1) {
+    background-color: rgba(42, 9, 28, 0.8);
+}
+
+
+
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+header ul :hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.textoHeader {
+    //background-color: aqua;
+    width: 1015px;
+    height: 271px;
+    margin: 80px 1189px 427px 174px;
+}
+
+.lineahorizonta1 {
+    background-color: #B2B1B0;
+    width: 102px;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-top: 30px;
+}
+
+.lineahorizonta2 {
+    background-color: #B2B1B0;
+    width: 102px;
+    height: 1px;
+    border: none;
+    float: right;
+    margin-top: 30px;
+}
+
+.textoHeader .titulo1 {
+    //background-color: blueviolet;
+    width: 765;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.textoHeader .titulo1 h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #B2B1B0;
+    font-family: "Roboto";
+}
+
+.textoHeader .titulo1 h2 {
+    position: absolute;
+    margin-top: 50px;
+    color: #ffffff;
+    width: 850px;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Open+Sans";
+    cursor: default
+}
+
+.textoHeader .titulo1 h2 span {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: #b2b1b0;
+}
+
+
+
+
+.textoHeader .titulo1 h2 span:hover {
+    color: #D632E1;
+    cursor: pointer;
+}
+
+.textoAbajo {
+    //background-color: aqua;
+    margin-top: 100px;
+}
+
+.textoAbajo p {
+    display: flex;
+    justify-content: center;
+    color: #b2b1b0;
+    font-size: 18px;
+}
+
+.textoAbajo .iconos {
+    //background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.textoAbajo .iconos a {
+    border-radius: 50%;
+    background-color: #d1d0d0;
+    color: #294656;
+    padding: 8px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.textoAbajo .iconos a:hover {
+    background-color: #3a1d3d;
+    color: #fff;
+}
+
+main .parrafo1 {
+    width: 508px;
+    height: 129px;
+    margin-left: 50px;
+
+
+}
+
+main .parrafo1 h2 {
+    font-size: 30px;
+    font-family: "Raleway"
+}
+
+.parrafo1 h2 .span2 {
+    margin-left: 250px;
+
+}
+
+.parrafo1 h2 .span2 a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+
+}
+
+.parrafo1 h2 .span1 {
+    margin-left: 20px;
+}
+
+.parrafo1 h2 .span1 a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+
+}
+
+
+
+.Formulario .linea {
+    background-color: #eaeaea;
+    width: 625px;
+    height: 6px;
+    margin-left: 20px;
+}
+
+.Formulario .linea2 {
+    background-color: #eaeaea;
+    width: 520px;
+    height: 3px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+
+    width: 660px; //background-color: aqua;
+    margin: 8px 840px 230px 20px;
+
+}
+
+::placeholder{
+    color: #f1f1f1;
+}
+
+.Formulario h2 {
+    margin-left: 20px;
+    color: #34495E;
+    font-size: 18px;
+    height: 10px;
+}
+
+form{
+    width: 430px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.contenedor h2{
+    color:black;
+    font-family:sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px 80px;
+    width: 65%;
+}
+
+.contenedor label{
+    color: black;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+
+.contenedor #nombreUsuario{
+    width: 50%;
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    background-color: cadetblue;
+    color: white;
+    padding-left: 10px;
+}
+
+.contenedor #apellidos{
+    width: 50%;
+    height: 25px;
+    border: none;
+    background-color: cadetblue;
+     color: white;
+    padding-left: 10px;
+}
+
+.contenedor #correo{
+    width: 50%;
+    height: 25px;
+    border: none;
+    margin-left: 24px;
+    background-color: cadetblue;
+     color: white;
+    padding-left: 10px;
+}
+
+.contenedor #cajaComentario{
+    background-color:cadetblue;
+    width: 330px;
+    color: white;
+    padding-left: 10px;
+}
+
+.contenedor .comentario{
+    margin-bottom: 20px;
+   
+}
+
+#boton{
+    background-color: #FFC300;
+    color: #ffffff;
+    font-family: SansSerif;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+footer{
+    background-color: rgba(234, 234, 234,0.8);
+    width: 99%;
+    border-top: 6px solid ##eaeaea;
+    height: 190px;
+    margin-top: 100px;
+    
+}
+
+footer .box1{
+    width: 520px;
+    //background-color: aqua;
+    padding-top: 30px;
+    padding-left: 120px;
+    float: left;
+}
+
+footer .box1 h3{
+    color: #403D40;
+    font-family: "Raleway";
+}
+
+footer .box1 p{
+    line-height: 1.4;
+    font-size: 15px;
+    font-family: "Raleway";
+}
+
+footer .box1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+footer .box1 h4{
+    line-height: 1.4;
+    font-size: 13px;
+    font-family: "Raleway";
+    color: #403D40;
+}
+
+footer .box1 span a{
+     color: #403D40;
+    text-decoration: none;
+}
+
+footer .box2{
+    width: 520px;
+    //background-color: aqua;
+    padding-top: 30px;
+    padding-right: 120px;
+    float: right;
+}
+
+footer .box2 h3{
+    color: #403D40;
+    font-family: "Raleway";
+}
+
+footer .box2 p{
+    line-height: 1.4;
+    font-size: 15px;
+    font-family: "Raleway";
+}
+
+footer .box2 p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+footer .box2 span a{
+     color: #403D40;
+    text-decoration: none;
+}
+
+.finalFooter{
+    background-image: url(../img/fondo4.jpg);
+    width:99%;
+    height: 118px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.finalFooter p{
+    color:#fff;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.finalFooter p span{
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: #eaeaea;
+}
+
+.finalFooter p span:hover{
+    color: #F30B51;
+    //font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+
+
